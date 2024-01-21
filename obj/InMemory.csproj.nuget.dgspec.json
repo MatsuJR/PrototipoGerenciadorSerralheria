@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Junior\\Desktop\\code\\InMemory\\InMemory.csproj": {}
+    "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\InMemory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Junior\\Desktop\\code\\InMemory\\InMemory.csproj": {
+    "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\InMemory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Junior\\Desktop\\code\\InMemory\\InMemory.csproj",
+        "projectUniqueName": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\InMemory.csproj",
         "projectName": "InMemory",
-        "projectPath": "C:\\Users\\Junior\\Desktop\\code\\InMemory\\InMemory.csproj",
+        "projectPath": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\InMemory.csproj",
         "packagesPath": "C:\\Users\\Junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Junior\\Desktop\\code\\InMemory\\obj\\",
+        "outputPath": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Junior\\AppData\\Roaming\\NuGet\\NuGet.Config",

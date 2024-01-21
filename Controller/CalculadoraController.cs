@@ -27,22 +27,11 @@ namespace InMemory.Controller
             double precofinal;
             if (larguraBaseMesa != 0)
             {
-                System.Console.WriteLine("altura" + alturaMesa);
-                System.Console.WriteLine("largura s" + larguraSuperficieMesa);
-                System.Console.WriteLine("largura b" + larguraBaseMesa);
-                System.Console.WriteLine("comprimento" + comprimentoMesa);
-                System.Console.WriteLine("");
-                System.Console.WriteLine("");
+
 
                 double pesDiagonalAoQuadrado = (alturaMesa * alturaMesa) + ((larguraSuperficieMesa - larguraBaseMesa) / 2 * ((larguraSuperficieMesa - larguraBaseMesa) / 2));
-                System.Console.WriteLine("diagonal quadrado: " + pesDiagonalAoQuadrado);
-
                 double pesDiagonal = Math.Sqrt(pesDiagonalAoQuadrado);
-                System.Console.WriteLine("diagonal: " + pesDiagonal);
-
                 materialTotalPes = 2 * ((2 * pesDiagonal) + larguraBaseMesa + larguraSuperficieMesa);
-                System.Console.WriteLine("material total dos pes em metros: " + materialTotalPes);
-
                 materialTotalPesBarras = (double)(materialTotalPes / materialPes.Length);
                 precoPes = materialTotalPesBarras * materialPes.PriceMaterial;
                 materialTotalSuperficie = (double)(2 * (comprimentoMesa - (materialPes.Width * 2 / 1000)));
