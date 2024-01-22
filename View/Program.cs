@@ -19,6 +19,7 @@ namespace InMemory
         public static void Menu()
         {
             int op;
+
             do
             {
                 System.Console.WriteLine("escolha um opcao:");
@@ -35,7 +36,7 @@ namespace InMemory
                 {
 
 
-                    case 0: Environment.Exit(0); break;
+                    case 0: break;
                     case 1:
                         var userView = new UserView();
                         userView.OpcaoUsuario(); break;
@@ -55,7 +56,7 @@ namespace InMemory
                         var calculadoraView = new CalculadoraView();
                         calculadoraView.MenuCalculadora();
                         break;
-                    default: Console.WriteLine("Opcao incorreta"); Menu(); break;
+                    default: Console.WriteLine("Opcao incorreta"); break;
                 }
             } while (op != 0);
 

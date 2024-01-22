@@ -72,7 +72,6 @@ namespace InMemory.View
                     default: Console.WriteLine("Opcao incorreta"); OpcaoMaterial(); break;
                 }
             } while (op != 0);
-            Program.Menu();
         }
 
         public void RecebeDadosMaterialSimples()

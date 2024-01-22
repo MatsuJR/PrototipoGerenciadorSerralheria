@@ -66,7 +66,6 @@ namespace InMemory.View
                     default: Console.WriteLine("Opcao incorreta"); OpcaoUsuario(); break;
                 }
             } while (op != 0);
-            Program.Menu();
 
         }
 

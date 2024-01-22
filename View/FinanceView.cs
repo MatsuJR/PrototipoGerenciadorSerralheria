@@ -75,7 +75,6 @@ namespace InMemory.View
                     default: Console.WriteLine("Opcao incorreta"); OpcaoFinanca(); break;
                 }
             } while (op != 0);
-            Program.Menu();
 
         }
 
