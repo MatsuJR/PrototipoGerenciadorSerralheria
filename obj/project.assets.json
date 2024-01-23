@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\InMemory.csproj",
+      "projectUniqueName": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\PrototipoGerenciadorSerralheria\\InMemory.csproj",
       "projectName": "InMemory",
-      "projectPath": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\InMemory.csproj",
+      "projectPath": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\PrototipoGerenciadorSerralheria\\InMemory.csproj",
       "packagesPath": "C:\\Users\\Junior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\InMemory\\PrototipoGerenciadorSerralheria\\obj\\",
+      "outputPath": "C:\\Users\\Junior\\Desktop\\code\\GITHUB\\PrototipoGerenciadorSerralheria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
