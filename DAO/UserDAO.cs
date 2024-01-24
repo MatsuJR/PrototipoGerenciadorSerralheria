@@ -11,8 +11,17 @@ namespace InMemory.DAO
     {
         private List<User> users = new List<User>();
 
-
+        //cria uma variavel do tipo da classe
         private static UserDAO unica;
+        //quando alguma coisa precisar usar algum metodo da classe DAO
+        //ela instancia a classe e chama o metodo Get(nome da classe)DAO()
+        //private UserDAO userDAO = UserDAO.GetUserDAO();
+        //se o metodo nunca foi chamado ele cria uma nova instancia que
+        //nao tera valores armazenados (unica = new UserDAO), se já foi chamado
+        //unica nao será null pois usamos os metodos para fazer as operacoes crud,
+        //entao se instanciassemos a propria classe novamente ela perderias o que 
+        //está armazenado na memoria, entao se nao for null ela retorna a variavel
+        //que está com os dados armazenados
         public static UserDAO GetUserDAO()
         {
             if (unica == null)

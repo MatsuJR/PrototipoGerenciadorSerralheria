@@ -61,8 +61,6 @@ namespace InMemory.DAO
         ////////////////////////////////////////////////metodos para a calculadora :
         public Material GetMaterial(int id)
         {
-            System.Console.WriteLine("entrou no metodo da DAO");
-            System.Console.WriteLine("count: " + materials.Count);
 
             for (int i = 0; i < materials.Count; i++)
             {
@@ -72,6 +70,7 @@ namespace InMemory.DAO
                     return materials[i];
 
                 }
+
             }
             return null;
         }
