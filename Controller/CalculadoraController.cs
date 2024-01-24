@@ -125,10 +125,10 @@ namespace InMemory.Controller
                 else
                 {
                     materialTotalPes = 2 * ((2 * alturaMesa) + larguraSuperficieMesa);
-                    materialTotalPesBarras = (double)(materialTotalPes / materialPes.Length);
+                    materialTotalPesBarras = Math.Ceiling((double)(materialTotalPes / materialPes.Length));
                     precoPes = materialTotalPesBarras * materialPes.PriceMaterial;
                     materialTotalSuperficie = (double)(2 * (comprimentoMesa - (materialPes.Width * 2 / 1000)));
-                    materialTotalSuperficieBarras = (double)(materialTotalSuperficie / materialSuperficie.Length);
+                    materialTotalSuperficieBarras = Math.Ceiling((double)(materialTotalSuperficie / materialSuperficie.Length));
                     precoSuperficie = materialTotalSuperficieBarras * materialSuperficie.PriceMaterial;
                     precofinal = precoPes + precoSuperficie;
                 }
