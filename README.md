@@ -1,2 +1,2 @@
 # PrototipoGerenciadorSerralheria
- gerenciador serralheria com calculadora
+ crud em C# com calculadora para serviços de uma serralheria
